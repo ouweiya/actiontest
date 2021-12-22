@@ -1,1 +1,1 @@
-console.log(new Date().toLocaleTimeString());
+console.log('Time', new Date().toLocaleTimeString());
