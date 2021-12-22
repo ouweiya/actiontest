@@ -1,0 +1,24 @@
+{
+  "name": "actiontest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./b.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouweiya/actiontest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ouweiya/actiontest/issues"
+  },
+  "homepage": "https://github.com/ouweiya/actiontest#readme"
+}
