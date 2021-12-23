@@ -2,7 +2,7 @@ const axios = require('axios').default;
 const nodemailer = require('nodemailer');
 
 axios
-  .get('https://www.dual-subtitles.com/2')
+  .get('https://www.dual-subtitles.co')
   .then(res => {
     console.log('请求成功:', res.status);
   })
