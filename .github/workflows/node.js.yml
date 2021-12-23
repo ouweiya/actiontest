@@ -3,7 +3,7 @@ name: Test
 on:
   push:
   schedule:
-    - cron: '*/6 * * * *'
+    - cron: '*/10 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
