@@ -4,14 +4,14 @@ const nodemailer = require('nodemailer');
 axios
   .get('https://www.dual-subtitles.co/')
   .then(res => {
-    console.log(res.status === 200);
+    console.log('请求成功:', res.status);
   })
   .catch(({ response }) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
         user: 'salzburgrujvnun@gmail.com',
-        pass: 'fmqblvbnggpyjydx',
+        pass: 'mtfpbkrxeccrmozs',
       },
     });
     let errorMessage = '';
