@@ -28,8 +28,10 @@ axios
       subject: '⚠️ 网站异常提醒!',
       html: `<div style="color: red">
               <h2>${errorMessage}</h2>
-              <b>${new Date().toLocaleDateString('zh')} ${new Date().toLocaleTimeString('zh')}</b>
-            </div>`,
+              <b>${new Date().toLocaleDateString('zh', { timeZone: 'Asia/Shanghai' })} ${new Date().toLocaleTimeString('zh', {
+        timeZone: 'Asia/Shanghai',
+        hour12: false,
+      })}</b></div>`,
     };
 
     transporter.sendMail(mailOptions, (error, info) => {
