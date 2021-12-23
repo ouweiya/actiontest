@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node ./b.js"
+    "test": "node ./b.js",
+    "ip": "node ./a.js"
   },
   "repository": {
     "type": "git",
